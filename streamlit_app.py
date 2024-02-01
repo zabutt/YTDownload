@@ -24,7 +24,7 @@ def download_video(youtube_url, download_type):
 # Main Streamlit app
 def main():
     st.title("YouTube Downloader")
-    st.image("your_logo.png", use_container_width=True)  # Add your logo image path
+    st.image("ytlogo.png", use_container_width=True)  # Add your logo image path
 
     # User input for YouTube URL
     youtube_url = st.text_input("Enter YouTube Video URL:")
